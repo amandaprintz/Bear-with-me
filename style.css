@@ -1,0 +1,15 @@
+:root {
+  --bg-color: rgb(210, 167, 208);
+  --accent-color: rgb(220, 134, 134);
+  --font-color: #a5a5a5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 0;
+  line-height: 1.5;
+}
