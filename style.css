@@ -1,5 +1,5 @@
 :root {
-  --bg-color: rgb(240, 211, 228);
+  --bg-color: #ede7eb;
   --accent-color: rgb(220, 134, 134);
   --font-color: #ba2626;
 }
@@ -11,15 +11,17 @@
 body {
   background-color: var(--bg-color);
   margin: 0;
-  line-height: 1.5;
+  padding: 0;
 }
 
-.clouds {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.box {
+  width: 100%;
+  height: 100vw;
 }
 
-.clouds img {
-  width: 100vw;
+.cursor {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  font-size: 3rem;
 }
