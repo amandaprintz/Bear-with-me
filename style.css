@@ -16,12 +16,20 @@ body {
 
 .box {
   width: 100%;
-  height: 100vw;
+  height: 100vh;
 }
 
 .cursor {
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   position: relative;
   font-size: 3rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container img {
+  margin-top: 200px;
 }
