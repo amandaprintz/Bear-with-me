@@ -51,9 +51,6 @@ body {
   flex-direction: column;
 }
 
-.img-box {
-}
-
 .img-box img {
   width: 240px;
   height: 240px;
