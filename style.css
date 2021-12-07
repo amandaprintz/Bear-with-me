@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Montel';
-  src: url('font/Montel.woff') format('woff2');
+  src: url('font/Montel.woff') format('woff');
 }
 
 :root {
@@ -71,7 +71,6 @@ h1 {
   height: 85px;
   width: 90px;
   background-color: rgb(182, 164, 167);
-  /*   background-image: url("/images/btn.svg");  */
   padding: 10px 10px;
   font-size: 24px;
   color: white;
@@ -84,14 +83,12 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
-  /* iPad */
   h1 {
     font-size: 80px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  /* Desktop */
   .cursor {
     width: 45px;
     height: 45px;
@@ -99,6 +96,7 @@ h1 {
     font-size: 3rem;
     pointer-events: none;
     z-index: 100;
+    display: flow-root;
   }
 
   h1 {

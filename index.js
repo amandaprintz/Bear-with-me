@@ -7,6 +7,7 @@ document.querySelector('.box').addEventListener('mousemove', (e) => {
   document.querySelector('.cursor').style.top = e.clientY + 'px';
 });
 
+/* slideshow */
 var slider_img = document.querySelector('.slider-img');
 var images = [
   'drop.gif',
