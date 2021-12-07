@@ -83,13 +83,15 @@ h1 {
   opacity: 40%;
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 768px) {
+  /* iPad */
   h1 {
-    font-size: 50px;
+    font-size: 80px;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  /* Desktop */
   .cursor {
     width: 45px;
     height: 45px;
@@ -97,5 +99,10 @@ h1 {
     font-size: 3rem;
     pointer-events: none;
     z-index: 100;
+  }
+
+  h1 {
+    font-size: 120px;
+    margin-top: 200px;
   }
 }
