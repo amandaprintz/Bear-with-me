@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Montel';
+  src: url('font/Montel.woff') format('woff2');
+}
+
 :root {
   --bg-color: #ede7eb;
   --accent-color: rgb(220, 134, 134);
@@ -11,6 +16,14 @@ body {
   background-color: var(--bg-color);
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: 'Montel';
+  text-align: center;
+  color: var(--accent-color);
+  font-size: 120px;
+  margin-top: 50px;
 }
 
 .box {
@@ -37,9 +50,9 @@ body {
   position: relative;
 }
 
-.slideshow-container img {
-  margin-top: 230px;
-}
+/* .slideshow-container img {
+  margin-top: 0px;
+} */
 
 .slider {
   margin: 50px auto;
@@ -73,4 +86,10 @@ body {
 .btn:hover {
   color: white;
   opacity: 40%;
+}
+
+@media screen and (max-width: 1024px) {
+  .cursor {
+    display: none;
+  }
 }
