@@ -68,19 +68,19 @@ h1 {
   border: none;
   outline: none;
   border-radius: 50%;
-  height: 70px;
-  width: 70px;
-  background-color: var(--accent-color);
+  height: 85px;
+  width: 90px;
+  background-color: rgb(182, 164, 167);
+  /*   background-image: url("/images/btn.svg");  */
   padding: 10px 10px;
-  font-size: 20px;
+  font-size: 24px;
   color: white;
+  font-family: 'Montel';
   cursor: pointer;
-  margin: 10px auto;
 }
 
 .btn:hover {
-  color: white;
-  opacity: 40%;
+  background-color: rgba(182, 164, 167, 0.527);
 }
 
 @media screen and (min-width: 768px) {
