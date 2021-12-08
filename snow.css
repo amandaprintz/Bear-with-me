@@ -84,10 +84,10 @@
 
 @media screen and (min-width: 1024px) {
   .start-snow {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   .start-snow button {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 }
