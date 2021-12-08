@@ -2,11 +2,13 @@
 
 # Project Title
 
-Text about the project. This would also be a great place to link the game on Netlify.
+First assignments in JavaScript. The mission was to create a small website which serves no purpose.
 
-# Installation
+# Built with
 
-Add the installation instructions.
+JavaScript
+CSS
+HTML
 
 # Code Review
 

@@ -3,6 +3,16 @@
   src: url('font/Montel.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Quicksand';
+  src: local('Quicksand Regular'), local('Quicksand-Regular'),
+    url('/fonts/Quicksand-Regular.woff2') format('woff2'),
+    url('fonts/Quicksand-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --bg-color: #ede7eb;
   --accent-color: rgb(220, 134, 134);
@@ -45,10 +55,6 @@ h1 {
   position: relative;
 }
 
-/* .slideshow-container img {
-  margin-top: 0px;
-} */
-
 .slider {
   margin: 50px auto;
   width: 50%;
@@ -64,7 +70,7 @@ h1 {
   height: 240px;
 }
 
-.btn {
+button {
   border: none;
   outline: none;
   border-radius: 50%;
@@ -78,8 +84,8 @@ h1 {
   cursor: pointer;
 }
 
-.btn:hover {
-  background-color: rgba(182, 164, 167, 0.527);
+button:hover {
+  background-color: rgb(221, 201, 201);
 }
 
 @media screen and (min-width: 768px) {
@@ -101,6 +107,10 @@ h1 {
 
   h1 {
     font-size: 120px;
-    margin-top: 200px;
+    margin-top: 30px;
+  }
+
+  .slideshow-container img {
+    margin-top: -20px;
   }
 }
