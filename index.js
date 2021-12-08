@@ -73,7 +73,7 @@ snowButton.addEventListener('click', () => {
     snowButton.textContent = 'Christmas mode';
   } else {
     snow.style.display = 'flex';
-    snowButton.textContent = 'Stop the snow';
+    snowButton.textContent = 'Cancel Christmas';
   }
 });
 
