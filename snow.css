@@ -31,9 +31,10 @@
   /*   height: 115vh; */
   height: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   position: absolute;
-  overflow: hidden;
+  overflow: visible;
   display: none;
   z-index: -1;
   pointer-events: visible;
