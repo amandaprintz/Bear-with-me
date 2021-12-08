@@ -86,7 +86,7 @@ function createSnow() {
     flake.classList.add('snow-flake');
     flake.style.fontSize = Math.random() * 3 + 2 + 'rem';
     flake.style.opacity = Math.random() * 0.9;
-    flake.style.animationDuration = Math.random() * 10 + 9 + 's';
+    flake.style.animationDuration = Math.random() * 10 + 5 + 's';
     flake.style.animationDelay = Math.random() * 10 + 's';
     flake.textContent = '*';
     snow.appendChild(flake);
