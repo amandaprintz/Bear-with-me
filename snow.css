@@ -5,7 +5,6 @@
   margin-top: 2rem;
   width: 100%;
   height: 70px;
-  position: relative;
 }
 
 .start-snow button {
@@ -21,7 +20,6 @@
   height: 150px;
   width: 400px;
   cursor: pointer;
-  position: absolute;
 }
 
 .start-snow button:hover {
@@ -46,7 +44,7 @@
 .snow-flake {
   height: 1px;
   animation: fall 30s linear forwards infinite;
-  color: white;
+  color: var(--snow-color);
   font-family: 'Quicksand';
   font-weight: 300;
 }
