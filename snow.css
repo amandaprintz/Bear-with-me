@@ -15,7 +15,7 @@
   background-color: transparent;
   font-size: 24px;
   color: rgb(182, 164, 167);
-  font-family: 'Montel';
+  font-family: var(--main-font);
   border: none;
   height: 115px;
   width: 300px;
@@ -45,7 +45,7 @@
   height: 1px;
   animation: fall 30s linear forwards infinite;
   color: var(--snow-color);
-  font-family: 'Quicksand';
+  font-family: var(--snow-font);
   font-weight: 300;
 }
 
