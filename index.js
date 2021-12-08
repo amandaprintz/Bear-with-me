@@ -10,7 +10,7 @@ document.querySelector('.box').addEventListener('mousemove', (e) => {
 /* slideshow */
 var slider_img = document.querySelector('.slider-img');
 var images = [
-  'drop.gif',
+  'jump.gif',
   'cheers.gif',
   'bite.gif',
   'band.gif',
