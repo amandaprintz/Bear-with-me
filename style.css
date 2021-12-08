@@ -35,7 +35,7 @@ h1 {
   text-align: center;
   color: var(--accent-color);
   font-size: 40px;
-  margin-top: 110px;
+  margin-top: 65px;
 }
 
 h2 {
@@ -43,7 +43,7 @@ h2 {
   text-align: center;
   color: var(--bg-color);
   font-size: 39px;
-  margin-top: 110px;
+  margin-top: 70px;
 }
 
 h3 {
@@ -52,6 +52,7 @@ h3 {
   color: rgb(182, 164, 167);
   font-size: 24px;
   margin-top: 200px;
+  margin-bottom: 300px;
 }
 
 .box {
