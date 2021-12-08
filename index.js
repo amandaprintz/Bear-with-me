@@ -93,3 +93,14 @@ function createSnow() {
   }
 }
 createSnow();
+
+/* night mode */
+
+function changeBackground() {
+  if (window.scrollY > window.innerHeight / 2) {
+    document.body.classList.add('night-time');
+  } else {
+    document.body.classList.remove('night-time');
+  }
+}
+window.addEventListener('scroll', changeBackground);
