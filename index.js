@@ -70,10 +70,10 @@ setTimeout(function () {
 snowButton.addEventListener('click', () => {
   if (snow.style.display === 'flex') {
     snow.style.display = 'none';
-    snowButton.textContent = 'snow';
+    snowButton.textContent = 'Christmas mode';
   } else {
     snow.style.display = 'flex';
-    snowButton.textContent = ' stop';
+    snowButton.textContent = 'Stop the snow';
   }
 });
 

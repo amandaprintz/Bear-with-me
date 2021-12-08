@@ -1,13 +1,21 @@
-<svg width="187" height="73" viewBox="0 0 187 73" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="23.0587" cy="22.5011" r="19.2306" fill="white"/>
-<circle cx="51.3983" cy="22.5011" r="19.2306" fill="white"/>
-<circle cx="25.0829" cy="47.8043" r="19.2306" fill="white"/>
-<circle cx="51.3983" cy="47.8043" r="19.2306" fill="white"/>
-<circle cx="75.6897" cy="47.8043" r="19.2306" fill="white"/>
-<circle cx="104.03" cy="49.8292" r="19.2306" fill="white"/>
-<circle cx="132.369" cy="49.8292" r="19.2306" fill="white"/>
-<circle cx="132.369" cy="49.8292" r="19.2306" fill="white"/>
-<circle cx="114.151" cy="24.526" r="19.2306" fill="white"/>
-<circle cx="142.806" cy="21.879" r="19.2306" fill="white"/>
-<circle cx="81.7626" cy="24.526" r="19.2306" fill="white"/>
+<svg width="400" height="151" viewBox="0 0 400 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_95_11)">
+<circle cx="45.9506" cy="40.0218" r="39.6561" fill="white"/>
+<circle cx="97.5665" cy="40.0218" r="39.6561" fill="white"/>
+<circle cx="111.415" cy="102.968" r="39.6561" fill="white"/>
+<circle cx="164.289" cy="40.0218" r="39.6561" fill="white"/>
+<circle cx="232.271" cy="40.0218" r="39.6561" fill="white"/>
+<circle cx="49.0979" cy="102.338" r="42.8034" fill="white"/>
+<circle cx="168.696" cy="92.2678" r="52.8747" fill="white"/>
+<circle cx="232.271" cy="102.968" r="39.6561" fill="white"/>
+<circle cx="295.847" cy="48.2039" r="44.0623" fill="white"/>
+<circle cx="346.764" cy="51.5498" r="41.8989" fill="white"/>
+<circle cx="285.463" cy="112.355" r="39.6561" fill="white"/>
+<circle cx="339.98" cy="100.631" r="44.6917" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_95_11">
+<rect width="400" height="150" fill="white" transform="translate(0 0.365723)"/>
+</clipPath>
+</defs>
 </svg>
