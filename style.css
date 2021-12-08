@@ -16,6 +16,7 @@
 :root {
   --bg-color: #ede7eb;
   --accent-color: rgb(220, 134, 134);
+  --snow-color: #ffff;
 }
 
 * {
@@ -70,7 +71,7 @@ h1 {
   height: 240px;
 }
 
-button {
+.btn {
   border: none;
   outline: none;
   border-radius: 50%;
@@ -84,7 +85,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   background-color: rgb(221, 201, 201);
 }
 

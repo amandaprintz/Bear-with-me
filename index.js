@@ -70,10 +70,10 @@ setTimeout(function () {
 snowButton.addEventListener('click', () => {
   if (snow.style.display === 'flex') {
     snow.style.display = 'none';
-    snowButton.textContent = 'Let it snow!';
+    snowButton.textContent = 'snow';
   } else {
     snow.style.display = 'flex';
-    snowButton.textContent = 'Stop snow';
+    snowButton.textContent = ' stop';
   }
 });
 
@@ -93,18 +93,3 @@ function createSnow() {
   }
 }
 createSnow();
-
-//add glow effect on snow flakes when mouse is over and removes the effect after 3 seconds
-const snowflakes = document.querySelectorAll('.snow-flake');
-
-snowflakes.forEach((snowflake) => {
-  snowflake.addEventListener('mouseover', () => {
-    snowflake.classList.add('glow');
-  });
-
-  snowflake.addEventListener('mouseout', () => {
-    setTimeout(function () {
-      snowflake.classList.remove('glow');
-    }, 3000);
-  });
-});
