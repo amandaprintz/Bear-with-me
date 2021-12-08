@@ -11,6 +11,16 @@
   opacity: 0;
   margin-top: 30px;
   transition: opacity 1s ease;
+  /*   background-image: url('/images/snowy.svg'); */
+  background-color: transparent;
+  padding: 10px 10px;
+  font-size: 24px;
+  color: white;
+  font-family: 'Montel';
+  border: none;
+  height: 74px;
+  width: 187px;
+  cursor: pointer;
 }
 
 .container-snow {
@@ -67,4 +77,10 @@
   animation-name: bounce;
   animation-duration: 1s;
   animation-iteration-count: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  .start-snow button {
+    margin-top: 150px;
+  }
 }
