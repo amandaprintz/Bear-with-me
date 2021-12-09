@@ -2,9 +2,9 @@
 
 document.querySelector('.box').addEventListener('mousemove', (e) => {
   /*   console.log(e.clientX, e.clientY); */
-  document.querySelector('.cursor').style.left = e.clientX + 'px';
+  document.querySelector('.cursor').style.left = e.pageX + 'px';
 
-  document.querySelector('.cursor').style.top = e.clientY + 'px';
+  document.querySelector('.cursor').style.top = e.pageY + 'px';
 });
 
 /* slideshow */
