@@ -51,10 +51,6 @@ after.addEventListener('click', function (e) {
   next();
 });
 
-after.addEventListener('click', function (e) {
-  next();
-});
-
 /* snow script */
 const snow = document.querySelector('.container-snow');
 const body = document.querySelector('body');
