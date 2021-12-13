@@ -91,6 +91,11 @@ h3 {
   height: 240px;
 }
 
+.navigation-buttons {
+  width: 200px;
+  margin: auto;
+}
+
 .btn {
   border: none;
   outline: none;
