@@ -2,7 +2,8 @@
 
 # Bear with me
 
-First assignments in JavaScript. The mission was to create a small website which serves no purpose. You can visit the site [here.](https://bear-with-me.netlify.app/)
+First assignments in JavaScript. The mission was to create a small website which serves no purpose. <br>
+You can visit the site [here.](https://bear-with-me.netlify.app/)
 
 # Built with
 
