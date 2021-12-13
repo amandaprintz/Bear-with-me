@@ -1,14 +1,14 @@
 <img src="https://media.giphy.com/media/IJTCcELAbVgHK/giphy.gif" width=100%>
 
-# Bear with me 
+# Bear with me
 
 First assignments in JavaScript. The mission was to create a small website which serves no purpose. You can visit the site [here.](https://bear-with-me.netlify.app/)
 
 # Built with
 
-* JavaScript<br>
-* CSS<br>
-* HTML<br>
+-   JavaScript<br>
+-   CSS<br>
+-   HTML<br>
 
 # Code Review
 
@@ -25,12 +25,12 @@ Code review written by [Albin Andersson](https://github.com/itisalbin).
 1.  The navigation buttons react in a very responsive manner even on small screens.
 
 #
-* <b> Update: the font Quicksand is used in for the snowflakes and not in any paragraphs or headlines. </b>
+
+-   <b> Update: the font Quicksand is used in for the snowflakes and not in any paragraphs or headlines. </b>
 
 # Testers
 
 Tested by the following people:
 
-1. Jennifer Andersson
-
-2. Johanna Jönsson
+1. Jennifer Andersson.
+2. Johanna Jönsson.
